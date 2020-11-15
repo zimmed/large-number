@@ -16,7 +16,7 @@
 
 ▸ **gt**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [gt.ts:6](https://github.com/zimmed/large-number/blob/b26544a/src/gt.ts#L6)*
+*Defined in [gt.ts:6](https://github.com/zimmed/large-number/blob/0e73db7/src/gt.ts#L6)*
 
 Check to see if the first `LargeNumber` is greater than the second.
 

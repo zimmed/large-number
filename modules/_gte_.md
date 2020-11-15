@@ -16,7 +16,7 @@
 
 ▸ **gte**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [gte.ts:6](https://github.com/zimmed/large-number/blob/b26544a/src/gte.ts#L6)*
+*Defined in [gte.ts:6](https://github.com/zimmed/large-number/blob/0e73db7/src/gte.ts#L6)*
 
 Check to see if the first `LargeNumber` is greater than or equal to the second.
 

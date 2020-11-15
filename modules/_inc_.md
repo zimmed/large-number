@@ -16,7 +16,7 @@
 
 ▸ **inc**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `num?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [inc.ts:15](https://github.com/zimmed/large-number/blob/b26544a/src/inc.ts#L15)*
+*Defined in [inc.ts:15](https://github.com/zimmed/large-number/blob/0e73db7/src/inc.ts#L15)*
 
 Increment the `LargeNumber` by the provided amount.
 

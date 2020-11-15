@@ -6,7 +6,6 @@ module.exports = {
   includeDeclarations: true,
   includeVersion: true,
   tsconfig: 'tsconfig.json',
-  out: './dorks',
   excludePrivate: true,
   excludeProtected: true,
   excludeExternals: true,

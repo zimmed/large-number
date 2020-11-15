@@ -16,7 +16,7 @@
 
 ▸ **sub**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [sub.ts:12](https://github.com/zimmed/large-number/blob/b26544a/src/sub.ts#L12)*
+*Defined in [sub.ts:12](https://github.com/zimmed/large-number/blob/0e73db7/src/sub.ts#L12)*
 
 Get the difference of two `LargeNumber`s.
 
