@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "neq"
 
@@ -16,7 +16,7 @@
 
 ▸ **neq**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [neq.ts:7](https://github.com/zimmed/large-number/blob/08a74e5/src/neq.ts#L7)*
+*Defined in [neq.ts:7](https://github.com/zimmed/large-number/blob/e609f3a/src/neq.ts#L7)*
 
 Check to see if the first `LargeNumber` is not equal to the second.
 

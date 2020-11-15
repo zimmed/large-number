@@ -1,6 +1,6 @@
 {
   "name": "@zimmed/large-number",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Utility for handling impossibly large numbers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

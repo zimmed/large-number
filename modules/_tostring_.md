@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "toString"
 
@@ -16,7 +16,7 @@
 
 ▸ **toString**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `bucketSeparator?`: string, `decimalSeparator?`: string): string
 
-*Defined in [toString.ts:9](https://github.com/zimmed/large-number/blob/08a74e5/src/toString.ts#L9)*
+*Defined in [toString.ts:9](https://github.com/zimmed/large-number/blob/e609f3a/src/toString.ts#L9)*
 
 Get the string representation of the `LargeNumber`.
 

@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "gt"
 
@@ -16,7 +16,7 @@
 
 ▸ **gt**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [gt.ts:6](https://github.com/zimmed/large-number/blob/08a74e5/src/gt.ts#L6)*
+*Defined in [gt.ts:6](https://github.com/zimmed/large-number/blob/e609f3a/src/gt.ts#L6)*
 
 Check to see if the first `LargeNumber` is greater than the second.
 

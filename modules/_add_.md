@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "add"
 
@@ -16,7 +16,7 @@
 
 ▸ **add**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [add.ts:11](https://github.com/zimmed/large-number/blob/08a74e5/src/add.ts#L11)*
+*Defined in [add.ts:11](https://github.com/zimmed/large-number/blob/e609f3a/src/add.ts#L11)*
 
 Get the sum of two `LargeNumber`s.
 

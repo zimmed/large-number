@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / ["types"](../modules/_types_.md) / LargeNumber
 
@@ -22,7 +22,7 @@
 
 •  **fractionBuckets**: number[]
 
-*Defined in [types.ts:3](https://github.com/zimmed/large-number/blob/08a74e5/src/types.ts#L3)*
+*Defined in [types.ts:3](https://github.com/zimmed/large-number/blob/e609f3a/src/types.ts#L3)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 •  **negative**: boolean
 
-*Defined in [types.ts:4](https://github.com/zimmed/large-number/blob/08a74e5/src/types.ts#L4)*
+*Defined in [types.ts:4](https://github.com/zimmed/large-number/blob/e609f3a/src/types.ts#L4)*
 
 ___
 
@@ -38,4 +38,4 @@ ___
 
 •  **wholeBuckets**: number[]
 
-*Defined in [types.ts:2](https://github.com/zimmed/large-number/blob/08a74e5/src/types.ts#L2)*
+*Defined in [types.ts:2](https://github.com/zimmed/large-number/blob/e609f3a/src/types.ts#L2)*

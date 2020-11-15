@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "sub"
 
@@ -16,7 +16,7 @@
 
 ▸ **sub**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [sub.ts:12](https://github.com/zimmed/large-number/blob/08a74e5/src/sub.ts#L12)*
+*Defined in [sub.ts:12](https://github.com/zimmed/large-number/blob/e609f3a/src/sub.ts#L12)*
 
 Get the difference of two `LargeNumber`s.
 

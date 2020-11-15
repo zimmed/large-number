@@ -1,4 +1,4 @@
-**[large-number - v0.1.1](../README.md)**
+**[large-number - v0.1.2](../README.md)**
 
 > [Globals](../globals.md) / "assign"
 
@@ -16,7 +16,7 @@
 
 ▸ **assign**(`into`: [LargeNumber](../interfaces/_types_.largenumber.md), `from`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [assign.ts:8](https://github.com/zimmed/large-number/blob/08a74e5/src/assign.ts#L8)*
+*Defined in [assign.ts:8](https://github.com/zimmed/large-number/blob/e609f3a/src/assign.ts#L8)*
 
 Assign the values of the second `LargeNumber` into the first.
 
