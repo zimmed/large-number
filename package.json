@@ -8,18 +8,21 @@
   "author": "zimmed@zimmed.io",
   "scripts": {
     "lint": "npx eslint .",
-    "build": "npx tsc --project tsconfig.build.json",
-    "docs": "npx typedoc --exclude '**/*.test.ts' --stripInternal --out ./docs/ ./src/",
+    "build": "mkdir -p dist && npx tsc --project tsconfig.build.json",
+    "docs": "npx typedoc --out . --disableOutputCheck",
     "test": "npx jest",
+    "git:add": "git add .",
     "watch:test": "npx jest --watch",
     "prepublish": "npm build",
-    "postinstall": "npm build"
+    "postinstall": "npm build",
+    "prepare": "npm build"
   },
   "pre-commit": [
     "lint",
     "test",
     "build",
-    "docs"
+    "docs",
+    "git:add"
   ],
   "repository": {
     "type": "git",
@@ -47,6 +50,7 @@
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.4",
     "typedoc": "^0.19.2",
+    "typedoc-plugin-markdown": "^3.0.11",
     "typescript": "^4.0.5"
   }
 }
