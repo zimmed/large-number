@@ -1,4 +1,4 @@
-**[large-number - v0.1.5](../README.md)**
+**[large-number - v0.2.0](../README.md)**
 
 > [Globals](../globals.md) / "shift"
 
@@ -16,7 +16,7 @@
 
 ▸ **shift**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `cols?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [shift.ts:11](https://github.com/zimmed/large-number/blob/6505d78/src/shift.ts#L11)*
+*Defined in [shift.ts:11](https://github.com/zimmed/large-number/blob/4f9d0cf/src/shift.ts#L11)*
 
 Shift the `LargeNumber` by the specified power of 10.
 

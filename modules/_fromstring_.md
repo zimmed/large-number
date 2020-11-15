@@ -1,4 +1,4 @@
-**[large-number - v0.1.5](../README.md)**
+**[large-number - v0.2.0](../README.md)**
 
 > [Globals](../globals.md) / "fromString"
 
@@ -16,7 +16,7 @@
 
 ▸ **fromString**(`str`: string): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [fromString.ts:17](https://github.com/zimmed/large-number/blob/6505d78/src/fromString.ts#L17)*
+*Defined in [fromString.ts:17](https://github.com/zimmed/large-number/blob/4f9d0cf/src/fromString.ts#L17)*
 
 Creates a new large number from a number string (cannot have thousand-separators).
 
