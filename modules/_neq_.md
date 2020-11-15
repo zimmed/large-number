@@ -16,7 +16,7 @@
 
 ▸ **neq**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [neq.ts:7](https://github.com/zimmed/large-number/blob/0e73db7/src/neq.ts#L7)*
+*Defined in [neq.ts:7](https://github.com/zimmed/large-number/blob/304d236/src/neq.ts#L7)*
 
 Check to see if the first `LargeNumber` is not equal to the second.
 

@@ -20,7 +20,7 @@
 
 ▸ **create**(`__namedParameters?`: { fractionBuckets: number[] = DEFAULT.fractionBuckets; negative: boolean = DEFAULT.negative; wholeBuckets: number[] = DEFAULT.wholeBuckets }): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [create.ts:8](https://github.com/zimmed/large-number/blob/0e73db7/src/create.ts#L8)*
+*Defined in [create.ts:8](https://github.com/zimmed/large-number/blob/304d236/src/create.ts#L8)*
 
 Create a new `LargeNumber`.
 
@@ -38,7 +38,7 @@ Name | Type | Default value |
 
 ▪ `Const` **DEFAULT**: object
 
-*Defined in [create.ts:3](https://github.com/zimmed/large-number/blob/0e73db7/src/create.ts#L3)*
+*Defined in [create.ts:3](https://github.com/zimmed/large-number/blob/304d236/src/create.ts#L3)*
 
 #### Properties:
 

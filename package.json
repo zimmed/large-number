@@ -6,6 +6,7 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "author": "zimmed@zimmed.io",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "lint": "npx eslint .",
     "build": "mkdir -p dist && npx tsc --project tsconfig.build.json",

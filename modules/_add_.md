@@ -16,7 +16,7 @@
 
 ▸ **add**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [add.ts:11](https://github.com/zimmed/large-number/blob/0e73db7/src/add.ts#L11)*
+*Defined in [add.ts:11](https://github.com/zimmed/large-number/blob/304d236/src/add.ts#L11)*
 
 Get the sum of two `LargeNumber`s.
 

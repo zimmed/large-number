@@ -16,7 +16,7 @@
 
 ▸ **trunc**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `bucketUnits?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [trunc.ts:9](https://github.com/zimmed/large-number/blob/0e73db7/src/trunc.ts#L9)*
+*Defined in [trunc.ts:9](https://github.com/zimmed/large-number/blob/304d236/src/trunc.ts#L9)*
 
 Truncates `LargeNumber` at specified bucket unit (power of 1000).
 

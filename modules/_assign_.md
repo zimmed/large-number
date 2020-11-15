@@ -16,7 +16,7 @@
 
 ▸ **assign**(`into`: [LargeNumber](../interfaces/_types_.largenumber.md), `from`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [assign.ts:8](https://github.com/zimmed/large-number/blob/0e73db7/src/assign.ts#L8)*
+*Defined in [assign.ts:8](https://github.com/zimmed/large-number/blob/304d236/src/assign.ts#L8)*
 
 Assign the values of the second `LargeNumber` into the first.
 

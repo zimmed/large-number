@@ -16,7 +16,7 @@
 
 ▸ **trim**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [trim.ts:8](https://github.com/zimmed/large-number/blob/0e73db7/src/trim.ts#L8)*
+*Defined in [trim.ts:8](https://github.com/zimmed/large-number/blob/304d236/src/trim.ts#L8)*
 
 Trim leading integer zero buckets and trailing decimal zero buckets.
 
