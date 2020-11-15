@@ -16,7 +16,7 @@
 
 ▸ **eq**(`ln1`: [LargeNumber](../interfaces/_types_.largenumber.md), `ln2`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [eq.ts:6](https://github.com/zimmed/large-number/blob/304d236/src/eq.ts#L6)*
+*Defined in [eq.ts:6](https://github.com/zimmed/large-number/blob/a666e8f/src/eq.ts#L6)*
 
 Check to see if the two `LargeNumbers` are equivalent.
 

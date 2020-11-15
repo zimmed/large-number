@@ -16,7 +16,7 @@
 
 ▸ **invert**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [invert.ts:7](https://github.com/zimmed/large-number/blob/304d236/src/invert.ts#L7)*
+*Defined in [invert.ts:7](https://github.com/zimmed/large-number/blob/a666e8f/src/invert.ts#L7)*
 
 Gets the `LargeNumber` with the opposite polarity (inverts negative sign).
 

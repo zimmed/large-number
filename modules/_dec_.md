@@ -16,7 +16,7 @@
 
 ▸ **dec**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `num?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [dec.ts:16](https://github.com/zimmed/large-number/blob/304d236/src/dec.ts#L16)*
+*Defined in [dec.ts:16](https://github.com/zimmed/large-number/blob/a666e8f/src/dec.ts#L16)*
 
 Decrement the `LargeNumber` by the provided amount.
 

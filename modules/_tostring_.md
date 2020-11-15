@@ -16,7 +16,7 @@
 
 ▸ **toString**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `bucketSeparator?`: string, `decimalSeparator?`: string): string
 
-*Defined in [toString.ts:9](https://github.com/zimmed/large-number/blob/304d236/src/toString.ts#L9)*
+*Defined in [toString.ts:9](https://github.com/zimmed/large-number/blob/a666e8f/src/toString.ts#L9)*
 
 Get the string representation of the `LargeNumber`.
 

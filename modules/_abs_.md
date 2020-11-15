@@ -16,7 +16,7 @@
 
 ▸ **abs**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [abs.ts:7](https://github.com/zimmed/large-number/blob/304d236/src/abs.ts#L7)*
+*Defined in [abs.ts:7](https://github.com/zimmed/large-number/blob/a666e8f/src/abs.ts#L7)*
 
 Get the absolute `LargeNumber` value of the provided `LargeNumber`.
 

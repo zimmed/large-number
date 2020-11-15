@@ -16,7 +16,7 @@
 
 ▸ **empty**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [empty.ts:6](https://github.com/zimmed/large-number/blob/304d236/src/empty.ts#L6)*
+*Defined in [empty.ts:6](https://github.com/zimmed/large-number/blob/a666e8f/src/empty.ts#L6)*
 
 Determines if `LargeNumber` is empty, or `0`.
 
