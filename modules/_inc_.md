@@ -1,4 +1,4 @@
-**[large-number - v0.1.4](../README.md)**
+**[large-number - v0.1.5](../README.md)**
 
 > [Globals](../globals.md) / "inc"
 
@@ -16,7 +16,7 @@
 
 ▸ **inc**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `num?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [inc.ts:15](https://github.com/zimmed/large-number/blob/82e5210/src/inc.ts#L15)*
+*Defined in [inc.ts:15](https://github.com/zimmed/large-number/blob/6505d78/src/inc.ts#L15)*
 
 Increment the `LargeNumber` by the provided amount.
 

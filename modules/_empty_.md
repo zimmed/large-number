@@ -1,4 +1,4 @@
-**[large-number - v0.1.4](../README.md)**
+**[large-number - v0.1.5](../README.md)**
 
 > [Globals](../globals.md) / "empty"
 
@@ -16,7 +16,7 @@
 
 ▸ **empty**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): boolean
 
-*Defined in [empty.ts:6](https://github.com/zimmed/large-number/blob/82e5210/src/empty.ts#L6)*
+*Defined in [empty.ts:6](https://github.com/zimmed/large-number/blob/6505d78/src/empty.ts#L6)*
 
 Determines if `LargeNumber` is empty, or `0`.
 

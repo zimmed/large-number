@@ -1,4 +1,4 @@
-**[large-number - v0.1.4](../README.md)**
+**[large-number - v0.1.5](../README.md)**
 
 > [Globals](../globals.md) / "invert"
 
@@ -16,7 +16,7 @@
 
 ▸ **invert**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [invert.ts:7](https://github.com/zimmed/large-number/blob/82e5210/src/invert.ts#L7)*
+*Defined in [invert.ts:7](https://github.com/zimmed/large-number/blob/6505d78/src/invert.ts#L7)*
 
 Gets the `LargeNumber` with the opposite polarity (inverts negative sign).
 

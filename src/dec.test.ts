@@ -3,7 +3,7 @@ import dec from './dec';
 
 describe('dec()', () => {
   it('should decrement a large positive number by the provided amount', () => {
-    const num = fromNumber(100, 3);
+    let num = fromNumber(100, 3);
 
     expect(num.wholeBuckets[0]).toBe(0);
     dec(num);
@@ -12,6 +12,11 @@ describe('dec()', () => {
     expect(num).toEqual(fromNumber(99999999998.999));
     dec(num, 99999999998);
     expect(num).toEqual(fromNumber(0.999));
+    dec(num, 100.999);
+    expect(num).toEqual(fromNumber(-100));
+    num = fromNumber(1.01);
+    dec(num, 0.02);
+    expect(num).toEqual(fromNumber(0.99));
   });
   it('should increment a large negative number by the provided amount', () => {
     const num = fromNumber(-100, 10);

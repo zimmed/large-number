@@ -17,7 +17,7 @@ describe('inc()', () => {
     expect(num.wholeBuckets[0]).toBe(2);
   });
   it('should decrement a large negative number by the provided amount', () => {
-    const num = fromNumber(-100, 10);
+    let num = fromNumber(-100, 5);
 
     expect(num.wholeBuckets[0]).toBe(0);
     inc(num);
@@ -27,5 +27,8 @@ describe('inc()', () => {
     inc(num, 1.1);
     expect(num.wholeBuckets[0]).toBe(997);
     expect(num.fractionBuckets[0]).toBe(900);
+    num = fromNumber(-200);
+    inc(num, 400);
+    expect(num).toEqual(fromNumber(200));
   });
 });

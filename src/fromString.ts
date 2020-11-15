@@ -15,16 +15,13 @@ import shift from './shift';
  * ```
  */
 export default function fromString(str: string): LargeNumber {
-  const [, neg, whole, d, pow] = str.match(/^(\-)?0*(\d*)(?:\.|\,)?(\d*[1-9])?0*(?:\e\+(-?\d+)|$)/i) || [];
-  const fractionBuckets = d?.match(/\d{1,3}/g)?.map((n) => Number(n.padEnd(3, '0'))) || [];
+  const [, neg, whole, dec, pn = '+', pow] =
+    str.match(/^(\-)?0*(\d*)(?:\.|\,)?(\d*[1-9])?0*(?:\e(\+|\-|)(\d+)|$)/i) || [];
+  const fractionBuckets = dec?.match(/\d{1,3}/g)?.map((n) => Number(n.padEnd(3, '0'))) || [];
   const wholeBuckets = whole
-    ? whole
-        .padStart(Math.ceil(whole.length / 3) * 3, '0')
-        .match(/\d{1,3}/g)
-        ?.map(Number)
-        .reverse() || []
+    ? (whole.padStart(Math.ceil(whole.length / 3) * 3, '0').match(/\d{1,3}/g) as string[]).map(Number).reverse()
     : [];
   const ln = create({ negative: !!neg, fractionBuckets, wholeBuckets });
 
-  return pow ? shift(ln, Number(pow)) : ln;
+  return pow ? shift(ln, Number(pow) * (pn === '-' ? -1 : 1)) : ln;
 }

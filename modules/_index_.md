@@ -1,4 +1,4 @@
-**[large-number - v0.1.4](../README.md)**
+**[large-number - v0.1.5](../README.md)**
 
 > [Globals](../globals.md) / "index"
 

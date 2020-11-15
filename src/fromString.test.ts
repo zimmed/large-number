@@ -14,6 +14,8 @@ describe('fromString()', () => {
     expect(toValue(fromString('100.0'))).toBe(100);
     expect(toValue(fromString('-00123.32100'))).toBe(-123.321);
     expect(toValue(fromString('1234567890.0987654321'))).toBe(1234567890.0987654321);
+    expect(toValue(fromString('1e+5'))).toBe(100000);
+    expect(toValue(fromString('1e-5'))).toBe(0.00001);
   });
 
   it('should maintain very large numbers with 100% accuracy', () => {
@@ -25,5 +27,14 @@ describe('fromString()', () => {
     const num = add(fromString(str), fromNumber(-1));
 
     expect(toString(num)).toEqual(nextStr);
+  });
+
+  it('should provide an empty large number if bad or malformed string', () => {
+    expect(toValue(fromString('null'))).toBe(0);
+    expect(toValue(fromString('0x1214'))).toBe(0);
+    expect(toValue(fromString('ef1234'))).toBe(0);
+    expect(toValue(fromString('a.0'))).toBe(0);
+    expect(toValue(fromString('0.c'))).toBe(0);
+    expect(toValue(fromString('1.1.1'))).toBe(0);
   });
 });

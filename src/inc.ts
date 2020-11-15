@@ -3,8 +3,8 @@ import gt from './gt';
 import fromNumber from './fromNumber';
 import abs from './abs';
 import assign from './assign';
-import invert from './invert';
 import sub from './sub';
+import trim from './trim';
 import { increment, decrement } from './internals';
 
 /**
@@ -14,9 +14,7 @@ import { increment, decrement } from './internals';
  */
 export default function inc(ln: LargeNumber, num = 1): LargeNumber {
   if (ln.negative) {
-    return gt(fromNumber(num), abs(ln))
-      ? assign(ln, ln.negative ? sub(fromNumber(num), abs(ln)) : invert(sub(fromNumber(num), abs(ln))))
-      : decrement(ln, num);
+    return gt(fromNumber(num), abs(ln)) ? assign(ln, sub(fromNumber(num), abs(ln))) : trim(decrement(ln, num));
   }
-  return increment(ln, num);
+  return trim(increment(ln, num));
 }

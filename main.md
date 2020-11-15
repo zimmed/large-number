@@ -1,5 +1,10 @@
 # @zimmed/large-number
 
+![Jest Branch Coverage](test/badge-branches.svg)
+![Jest Function Coverage](test/badge-functions.svg)
+![Jest Line Coverage](test/badge-lines.svg)
+![Jest Statement Coverage](test/badge-statements.svg)
+
 ## About
 
 Simple library for storing very large numbers with infinite floating point precision.

@@ -1,8 +1,8 @@
-**[large-number - v0.1.4](README.md)**
+**[large-number - v0.1.5](README.md)**
 
 > Globals
 
-# large-number - v0.1.4
+# large-number - v0.1.5
 
 ## Index
 

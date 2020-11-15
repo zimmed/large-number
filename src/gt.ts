@@ -16,8 +16,8 @@ export default function gt(ln1: LargeNumber, ln2: LargeNumber): boolean {
 
   for (let i = 0; i < ln1.fractionBuckets.length; i++) {
     if (ln1.fractionBuckets[i] === ln2.fractionBuckets[i]) continue;
-    return ln1.fractionBuckets[i] > ln2.fractionBuckets[i] ? !ln1.negative : ln1.negative;
+    return !ln2.fractionBuckets[i] || ln1.fractionBuckets[i] > ln2.fractionBuckets[i] ? !ln1.negative : ln1.negative;
   }
 
-  return ln2.fractionBuckets.length > ln1.fractionBuckets.length && ln1.negative;
+  return ln1.fractionBuckets.length !== ln2.fractionBuckets.length && ln1.negative;
 }

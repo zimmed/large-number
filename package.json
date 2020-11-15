@@ -1,26 +1,31 @@
 {
   "name": "@zimmed/large-number",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Utility for handling impossibly large numbers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "MIT",
   "author": "zimmed@zimmed.io",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "lint": "npx eslint .",
     "build": "mkdir -p dist && npx tsc --project tsconfig.build.json",
     "docs": "npx typedoc --out . --disableOutputCheck",
     "test": "npx jest",
+    "test:coverage": "npx jest --coverage",
+    "badges": "npx jest-coverage-badges input './test/coverage-summary.json' output './test'",
     "git:add": "git add .",
-    "watch:test": "npx jest --watch",
+    "test:watch": "npx jest --watch",
     "prepublish": "npm build",
     "postinstall": "npm build",
     "prepare": "npm build"
   },
   "pre-commit": [
     "lint",
-    "test",
+    "test:coverage",
+    "badges",
     "build",
     "docs",
     "git:add"
@@ -47,6 +52,7 @@
     "eslint": "^7.13.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest-coverage-badges": "^1.1.2",
     "pre-commit": "^1.2.2",
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.4",

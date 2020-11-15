@@ -1,4 +1,4 @@
-**[large-number - v0.1.4](../README.md)**
+**[large-number - v0.1.5](../README.md)**
 
 > [Globals](../globals.md) / "fromNumber"
 
@@ -16,7 +16,7 @@
 
 ▸ **fromNumber**(`num`: number, `bucketUnits?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [fromNumber.ts:11](https://github.com/zimmed/large-number/blob/82e5210/src/fromNumber.ts#L11)*
+*Defined in [fromNumber.ts:11](https://github.com/zimmed/large-number/blob/6505d78/src/fromNumber.ts#L11)*
 
 Creates a new `LargeNumber` from a `number` value, starting at the specified bucket (power of 1000).
 

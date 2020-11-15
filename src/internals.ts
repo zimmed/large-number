@@ -1,7 +1,7 @@
 import { LargeNumber } from './types';
 
 /** @internal */
-export function increment(ln: LargeNumber, num = 1): LargeNumber {
+export function increment(ln: LargeNumber, num: number): LargeNumber {
   let i = 0;
   let v = num;
   let i0;
@@ -30,7 +30,7 @@ export function increment(ln: LargeNumber, num = 1): LargeNumber {
 }
 
 /** @internal */
-export function decrement(ln: LargeNumber, num = 1): LargeNumber {
+export function decrement(ln: LargeNumber, num: number): LargeNumber {
   let i = 0;
   let v = num;
   let i0;
@@ -69,14 +69,12 @@ export function decrement(ln: LargeNumber, num = 1): LargeNumber {
 /** @internal */
 export function diff(ln1: LargeNumber, ln2: LargeNumber, out: LargeNumber): LargeNumber {
   let v;
-  let flip = false;
   let nextBorrow;
   let borrowed = ln2.wholeBuckets.reduce(
     (borrow, n, i) => {
       v = (ln1.wholeBuckets[i] || 0) - n - borrow;
       nextBorrow = v < 0 && ln1.wholeBuckets.length > i + 1 ? 1 : 0;
       if (nextBorrow) v += 1000;
-      else if (v < 0) flip = true;
       out.wholeBuckets[i] = Math.abs(v);
       return nextBorrow;
     },
@@ -93,15 +91,8 @@ export function diff(ln1: LargeNumber, ln2: LargeNumber, out: LargeNumber): Larg
     v = (ln1.wholeBuckets[i] || 0) - borrowed;
     borrowed = v < 0 && ln1.wholeBuckets.length > i + 1 ? 1 : 0;
     if (borrowed) v += 1000;
-    else if (v < 0) flip = true;
     out.wholeBuckets[i] = v;
   }
-
-  if (borrowed) {
-    out.wholeBuckets[out.wholeBuckets.length] = borrowed;
-  }
-
-  if (flip) out.negative = !out.negative;
 
   return out;
 }
