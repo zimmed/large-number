@@ -1,0 +1,52 @@
+{
+  "name": "large-number",
+  "version": "0.1.0",
+  "description": "Utility for handling impossibly large numbers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "zimmed@zimmed.io",
+  "scripts": {
+    "lint": "npx eslint .",
+    "build": "npx tsc --project tsconfig.build.json",
+    "docs": "npx typedoc --exclude '**/*.test.ts' --stripInternal --out ./docs/ ./src/",
+    "test": "npx jest",
+    "watch:test": "npx jest --watch",
+    "prepublish": "npm build",
+    "postinstall": "npm build"
+  },
+  "pre-commit": [
+    "lint",
+    "test",
+    "build",
+    "docs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zimmed/large-number.git"
+  },
+  "files": [
+    "/dist"
+  ],
+  "keywords": [
+    "number",
+    "large"
+  ],
+  "bugs": {
+    "url": "https://github.com/zimmed/large-number/issues"
+  },
+  "homepage": "https://github.com/zimmed/large0number#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.15",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.4",
+    "typedoc": "^0.19.2",
+    "typescript": "^4.0.5"
+  }
+}
