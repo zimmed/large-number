@@ -1,4 +1,4 @@
-**[large-number - v0.1.0](../README.md)**
+**[large-number - v0.1.1](../README.md)**
 
 > [Globals](../globals.md) / "dec"
 
@@ -16,7 +16,7 @@
 
 ▸ **dec**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md), `num?`: number): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [dec.ts:16](https://github.com/zimmed/large-number/blob/a666e8f/src/dec.ts#L16)*
+*Defined in [dec.ts:16](https://github.com/zimmed/large-number/blob/08a74e5/src/dec.ts#L16)*
 
 Decrement the `LargeNumber` by the provided amount.
 
