@@ -1,4 +1,4 @@
-**[large-number - v0.1.2](../README.md)**
+**[large-number - v0.1.3](../README.md)**
 
 > [Globals](../globals.md) / "trim"
 
@@ -16,7 +16,7 @@
 
 ▸ **trim**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): [LargeNumber](../interfaces/_types_.largenumber.md)
 
-*Defined in [trim.ts:8](https://github.com/zimmed/large-number/blob/e609f3a/src/trim.ts#L8)*
+*Defined in [trim.ts:8](https://github.com/zimmed/large-number/blob/1a6f6b7/src/trim.ts#L8)*
 
 Trim leading integer zero buckets and trailing decimal zero buckets.
 

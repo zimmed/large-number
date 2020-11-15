@@ -10,8 +10,6 @@ but it's also not the worst.
 
 ## Installation
 
-### Public NPM Package
-
 First, edit existing or create new `.npmrc` file in your project root, and add:
 
 `@zimmed:registry=https://npm.pkg.github.com`
@@ -19,10 +17,6 @@ First, edit existing or create new `.npmrc` file in your project root, and add:
 Then you can use:
 
 `$ npm i --save @zimmed/large-number`
-
-### Alternative: Install And Build From Source
-
-`$ npm i --save zimmed/large-number#master`
 
 ## Usage
 
