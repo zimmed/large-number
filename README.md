@@ -1,4 +1,4 @@
-**[large-number - v0.1.3](README.md)**
+**[large-number - v0.1.4](README.md)**
 
 > [Globals](globals.md)
 
@@ -64,7 +64,7 @@ knows, floating point precision will give you 0.299999...)_
 
 ## Docs
 
-You can check out the generated API docs [here](docs/globals.md)
+You can check out the generated API docs [here](globals.md)
 
 ## License: MIT
 

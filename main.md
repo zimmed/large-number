@@ -60,7 +60,7 @@ knows, floating point precision will give you 0.299999...)_
 
 ## Docs
 
-You can check out the generated API docs [here](docs/globals.md)
+You can check out the generated API docs [here](globals.md)
 
 ## License: MIT
 

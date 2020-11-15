@@ -1,4 +1,4 @@
-**[large-number - v0.1.3](../README.md)**
+**[large-number - v0.1.4](../README.md)**
 
 > [Globals](../globals.md) / "toValue"
 
@@ -16,7 +16,7 @@
 
 ▸ **toValue**(`ln`: [LargeNumber](../interfaces/_types_.largenumber.md)): number
 
-*Defined in [toValue.ts:8](https://github.com/zimmed/large-number/blob/1a6f6b7/src/toValue.ts#L8)*
+*Defined in [toValue.ts:8](https://github.com/zimmed/large-number/blob/82e5210/src/toValue.ts#L8)*
 
 Get the approximate value of the `LargeNumber` as a `number`.
 
